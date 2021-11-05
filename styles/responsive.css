@@ -1,0 +1,270 @@
+/* @media all and (min-width: 768px) and (max-width: 1200px) { */
+/*     body {
+        width:1200px;
+        margin: 0;
+        padding: 20px;
+        cursor: default;
+    }
+
+    header {
+        width: 70%;
+        margin: 0;
+        justify-content: right;
+    }
+
+    .header-caption {
+        margin-left: 50px;
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .header-tel-block {
+        margin-left: 20%;
+    }
+
+    .main-header {
+        width: 80%;
+        margin: 0;
+        padding-right: 0px;
+    }
+
+    .bitter-image {
+        width: 25%;
+        height: 100%;
+        left: 10%;
+    }
+
+    .main-header-caption-block {
+        color: white;
+        width: 570px;
+        height: 454px;
+        left: 45%;
+    }
+
+    .caption {
+        font-size: 30px;
+    }
+
+    .main-block-info {
+        width: 80%;
+    }
+
+    .main-block-button {
+        width: 40%;
+        font-size: 15px;
+        border-radius: 15px;
+    }
+
+    /* ---------SECTION-2-INFOBLOCK------ */
+/*     .info-block {
+        width: 70%;
+        margin: 160px 0 0 60px;
+         background-color:red; 
+    }
+
+    .section4 {
+        width: 70%;
+    }
+
+    .section6 {
+        width: 70%;
+    }
+
+    footer {
+        width: 70%;
+    } */
+
+    /* ---------INFOBLOCK-2----------- */
+/*     .info-block2 {
+/*         width: 80%;
+        margin: 0;
+    }
+
+    .info-block2-caption {
+        width: 30%;
+        font-size: 30px;
+    }
+
+    .infoblock2-list {
+        flex-direction: column;
+    }
+
+    .block2-list {
+        margin: 0 auto;
+        padding: 0 0;
+    }
+
+    .block2-list li {
+        padding: 20px 0 0 150px ;
+    }
+
+    .info-block2-main-image {
+        width: 40%;
+        height: 90%;
+        margin: 0 0%;
+    }
+
+    .block2-button {
+        width: 230px;
+        border: 5px solid #7eb252;
+        left: 60%;
+        bottom: -12.6%;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+ */
+    /* -------SECTION-3---------- */
+/*     .section3 {
+        margin: 10% 0 0 0%;
+        flex-direction: column;
+    } */
+
+    section3-left-block {
+        /* width:20%; */
+    }
+
+/*     .section3-left-block-image {
+        width: 64%;
+    }
+
+    .section3-info {
+        width: 25%;
+        margin: 0;
+        right: 40px;
+        top: 0%;
+    }
+
+    .section3-info::after {
+        content: "";
+            left:0px;
+        width: 100%;
+        height: 70%;
+        display: block;
+        position: absolute;
+        bottom: 40%;
+            border-color: #edf3e8;
+    }
+
+    .section3-button {
+        width: 25%;
+        right: 10%;
+        bottom: 0;
+        border: none;
+    } */
+
+    /* -------SECTION-3-RIGHT-BLOCK--------- */
+    .section3-right-block {
+        /* flex-direction:column; */
+    }
+
+/*     .section3-right-caption {
+        font-size: 20px;
+        height: 35%;
+        margin-left: 30%;
+        line-height: 30px;
+    }
+
+    .section3-list-li {
+        margin: 0 0 5% 0;
+    }
+
+    .section3-right-subcaption {
+        margin: 0;
+    }
+
+    .section3-list {
+        width: 600px;
+    } */
+
+    /* -------SECTION-4------------ */
+/*     .section4 {
+        margin: 14% 0 0 0;
+         height:99%; 
+    }
+
+    .section4-title {
+        font-size: 30px;
+    }
+
+    .section4-card {
+        width: 300px;
+        height: 350px;
+    }  */
+
+    /* -------SECTION-5------------- */
+/*     .section5 {
+        margin: 0% 0 0 0;
+        width: 80%;
+    }
+
+    .section5-left-block {
+        width: 510px;
+    }
+
+    .section5-card {
+        width: 220px;
+        height: 250px
+    }
+
+    .section5-right-block {
+        width: 390px;
+    }
+
+    .section5-right-block-title {
+        font-size: 30px;
+    }
+
+    .section5-list-item {
+        margin-bottom: 10px;
+    }
+
+    .section5-right-button {
+        width: 250px;
+        border-radius: 20px;
+        bottom: 20%;
+        left: 20%;
+    }
+
+    .section6 {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .section6-title {
+        font-size: 30px;
+        left: 20%;
+    }
+
+    .section6-info {
+        margin: 0;
+        width: 400px;
+        left: 0%;
+        top: 15%;
+        border: 0;
+    }
+
+    .section6-subtitle {
+        top: 40%;
+        left: 50%;
+    }
+
+    .section6-button {
+        left: 25%;
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    .footer {
+        width: 10px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .footer-tel-block {
+        margin-left: 350px;
+    }
+} */
+
+/* -------end-responsive------ */
+/* @media all and (min-width: 320px) and (max-width: 700px) {
+} */

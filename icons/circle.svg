@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a4c58c;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="15" height="15" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="Фигура_9_копия_4" data-name="Фигура 9 копия 4" class="cls-1" cx="7.5" cy="7.5" r="7.5"/>
+</svg>
