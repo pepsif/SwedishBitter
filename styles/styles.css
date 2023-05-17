@@ -29,7 +29,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  /* height: 100px; */
+  padding: 22px 0;
   /* background-color:red;   */
 }
 .logo-block {
@@ -61,30 +62,35 @@ header {
 
 /* MAIN-HEADER */
 .main-header {
-  height: 550px;
-  background: url(../images/фон.jpg) center center no-repeat;
-  background-size: 1720px 547px;
+  /* height: 550px; */
+  background: url(../images/фон.jpg) center 0px no-repeat;
+  background-size: 1720px 550px;
 }
 .main-container {
-  position: relative;
+  
+  display: flex;
 }
 .bitter-image {
-  max-width: 290px;
-  max-height: 641px;
-  position: absolute;
+  /* max-width: 290px; */
+ 
+  margin-top: 8.5%;
+  margin-left: 11.5%;
+  /* position: absolute;
   top: 92px;
-  left: 130px;
+  left: 130px; */
 }
 
 /* main-header-caption-block------- */
 .main-header-caption-block {
   display: flex;
   color: white;
-  max-width: 570px;
-  max-height: 454px;
-  position: absolute;
+  max-width: 513px;
+  /* max-height: 454px; */
+  margin-top: 15%;
+  margin-left: 15%;
+  /* position: absolute;
   right: 0;
-  top: 180px;
+  top: 180px; */
   flex-direction: column;
 }
 
@@ -106,29 +112,33 @@ header {
 
 .main-block-button {
   color: white;
-  border: 25px solid #7eb252;
+  /* border: 25px solid #7eb252; */
   text-decoration: none;
-  max-width: 500px;
-  height: 20px;
+  padding: 16px 90px;
+  
   text-align: center;
-
-  /*     padding-top:25px; */
+  font-size: 14px;
+  font-weight: bold;
+  
+ 
   background-color: #7eb252;
-  margin: 190px 0 0 0;
+  margin: 38% 0 0 0;
 }
 
 /* SECTION-INFO---------------- */
 .info-block {
-  
-  height: 300px;
+  margin: 100px 0 200px 0;
+ 
  
 }
 .info-block-container {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .info-block-card {
   width: 270px;
-  height: 300px;
+  
 }
 
 .info-card-caption {
@@ -182,12 +192,9 @@ header {
 
 /* INF0-BLOCK2--------------- */
 .info-block2 {
-  max-width: 1400px;
-  height: 820px;
-  margin: 0 auto;
-  /* background-color:lightgrey; */
+ 
   position: relative;
-  /* display:flex; */
+  
   background: url(../images/фон_2.jpg);
 }
 
