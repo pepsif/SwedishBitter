@@ -13,12 +13,9 @@
 }
 
 body {
-  /*      width: 1920px; */
-  background-color: white;
   margin: 0;
   font-family: "Montserrat", serif;
   cursor: default;
-  padding: 20px;
   box-sizing: border-box;
 }
 .container {
@@ -71,11 +68,10 @@ header {
   background-size: 1720px 550px;
 }
 .main-container {
- 
   display: flex;
 }
 .bitter-image {
-    margin-top: 8.5%;
+  margin-top: 8.5%;
   margin-left: 11.5%;
 }
 
@@ -87,7 +83,7 @@ header {
   /* max-height: 454px; */
   margin-top: 15%;
   margin-left: 15%;
-  
+
   left: 10%;
   top: 170px;
   flex-direction: column;
@@ -116,12 +112,11 @@ header {
   /* border: 25px solid #7eb252; */
   text-decoration: none;
   padding: 16px 90px;
-  
+
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  
- 
+
   background-color: #7eb252;
   margin: 38% 0 0 0;
 }
@@ -129,17 +124,14 @@ header {
 /* SECTION-INFO---------------- */
 .info-block {
   margin: 100px 0 200px 0;
- 
- 
 }
 .info-block-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .info-block-card {
   width: 270px;
-  
 }
 
 .info-card-caption {
@@ -195,9 +187,6 @@ header {
 .info-block2 {
   background: url(../images/фон_2.jpg) 0 120px no-repeat;
   background-size: 100% 100%;
-  
-  
- 
 }
 .infoblock-container {
   display: flex;
@@ -206,13 +195,10 @@ header {
 }
 
 .info-block2-caption {
-  width: 500px;
   margin: 0;
   font-weight: 900;
   font-size: 40px;
-  font-family: "Montserrat Bold",sans-serif;
-  
-  
+  font-family: "Montserrat Bold", sans-serif;
 }
 
 .infoblock2-list {
@@ -228,10 +214,10 @@ header {
 }
 
 .block2-list-li {
-  font-family: "Montserrat Bold",sans-serif;
+  font-family: "Montserrat Bold", sans-serif;
   font-weight: 700;
   font-size: 14px;
- margin: 50px 0 0 0;
+  margin: 50px 0 0 0;
   list-style: none;
   counter-increment: li;
   display: relative;
@@ -258,9 +244,9 @@ header {
   text-decoration: none;
   width: 480px;
   font-size: 14px;
-  font-family: "Montserrat Bold",serif;
+  font-family: "Montserrat Bold", serif;
   text-align: center;
-  
+
   background-color: #7eb252;
   position: absolute;
   right: 0%;
@@ -273,62 +259,49 @@ header {
 
 /* SECTION-3 ------------*/
 .section3 {
-  /*     max-width: 1820px; */ /* height: 748px; */
-  display: flex;
   margin: 200px auto 0 auto;
 }
-.section3 .container {
-  display: flex; /* background-color:red; */
+.section3-container {
+  display: flex;
+  justify-content: space-between;
+  /* background: url("../images/image3.jpg") -400px 0 no-repeat;
+  background-size: 1000px 1000px; */
 }
 .section3-left-block {
-  width: 874px;
-  /*     height: 715px; */
+  max-width: 874px;
+
   position: relative;
-  background: url("../images/image3.jpg") -60px 0;
-  background-size: 875px 640px;
-  /* overflow:visible; */
 }
 .section3-left-block-image {
-  /* max-width:100%; */
-  /* display:none; */
+  width: 870px;
+  height: 650px;
+  position: absolute;
+  left: -320px;
 }
 .section3-button {
-  width: 568px;
+  width: 550px;
   height: 70px;
   background-color: #7eb252;
   color: white;
   font-size: 14px;
   font-weight: 500;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  bottom: -4%;
   border: none;
 }
 
 .section3-info {
-  width: 60%;
-  /* height:14%; */
-  position: absolute;
-  right: -1px;
-  bottom: 5%;
+  width: 470px;
+  padding: 40px;
   background-color: white;
-  border: 40px solid white;
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   font-family: "Montserrat", serif;
   text-align: center;
-}
-
-.section3-info::after {
-  content: "sdsdss";
-  border: 3px solid;
-  width: 470px;
-  height: 140px;
-  display: block;
   position: absolute;
-  bottom: -65px;
-  border-color: #edf3e8;
+  bottom: 0;
+  left: 0;
 }
 
 /* SECTION-3-RIGHT-BLOCK--------------- */
@@ -370,8 +343,8 @@ header {
 /* SECTION-4----------------- */
 .section4 {
   /*     width: 1820px; */
-  height: 650px;
-  margin: 100px auto 0 auto;
+
+  margin: 200px auto 0 auto;
   background: url("../images/фон_2.jpg") 10% 100% no-repeat;
   background-size: contain;
 }
@@ -385,8 +358,6 @@ header {
 }
 
 .section4-cards-block {
-  /*     width: 1170px; */
-  /*     height: 350px; */
   margin: 40px auto 0 auto;
   background-color: white;
 }
@@ -420,24 +391,23 @@ header {
 
 /* SECTION-5--------------------- */
 .section5 {
-  max-width: 1170px;
-  height: 930px;
   margin: 200px auto 0 auto;
+}
+.section5-container {
   display: flex;
 }
-
 .section5-left-block {
-  width: 600px;
-  height: 870px;
+  width: 580px;
+
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section5-card {
-  width: 270px;
-  height: 270px;
+  max-width: 270px;
+  /* height: 270px; */
   position: relative;
-  margin-right: 30px;
 }
 
 .section5-list-item {
